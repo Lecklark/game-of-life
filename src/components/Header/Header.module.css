@@ -1,0 +1,18 @@
+.header {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.header_container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header_logo {
+    height: 90px;
+    width: 90px;
+}
+.header_logo img {
+    width: 100%;
+}
