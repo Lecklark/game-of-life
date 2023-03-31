@@ -51,13 +51,10 @@ export const useGameLogic = (cols: number, rows: number) => {
   };
 
   const startGame = useCallback(() => {
-    if (gameStatus === GAME_STATUSES.STARTED) {
-      return;
-    }
     clearIntervalID();
     setGameStatus(GAME_STATUSES.STARTED);
     intervalID.current = setInterval(play, params.speed);
-  }, [params.speed, gameStatus]);
+  }, [params.speed]);
 
   const pauseGame = useCallback(() => {
     if (gameStatus === GAME_STATUSES.PAUSED) {
