@@ -1,0 +1,12 @@
+.layout {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &__main {
+    padding-top: 80px;
+    width: 100%;
+    flex: 1;
+  }
+}

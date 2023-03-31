@@ -1,0 +1,21 @@
+@import '@styles/vars';
+
+.text {
+  margin-left: 40px;
+
+  @media (max-width: $lg) {
+    margin-left: 0px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  ul, ol {
+    padding-left: 10px;
+  }
+}

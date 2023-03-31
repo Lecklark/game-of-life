@@ -1,0 +1,39 @@
+@import '@styles/vars';
+
+.header {
+  height: 100px;
+  background-color: $main-background;
+  margin-bottom: 15px;
+
+
+  &__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  &__logo {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    img {
+      width: 100%;
+    }
+
+    @media (max-width: $md) {
+      display: none;
+    }
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+  }
+}

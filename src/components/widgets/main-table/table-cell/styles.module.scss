@@ -1,0 +1,12 @@
+.cell {
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-left: -1px;
+  margin-bottom: -1px;
+
+  &_enabled {
+    background-color: magenta;
+  }
+}

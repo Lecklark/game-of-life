@@ -1,0 +1,13 @@
+@import '@styles/vars';
+
+.button {
+  background-color: $button-background-color;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: $hover-transition;
+
+  &:hover {
+    background-color: $button-hover-background;
+  }
+}
+
